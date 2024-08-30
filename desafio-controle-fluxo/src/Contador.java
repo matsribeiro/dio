@@ -14,6 +14,8 @@ public class Contador {
         } catch (ParametrosInvalidosException e){
             System.out.println("O parametro um é maior que o parametro dois.");
         }
+
+        terminal.close();
     }
 
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
